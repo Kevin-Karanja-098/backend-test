@@ -50,7 +50,7 @@ CORS_ALLOWED_ORIGINS = [
 
 ]
 
-ALLOWED_HOSTS = ["backend-test.onrender.com", "localhost"]
+ALLOWED_HOSTS = ["backend-test-r0at.onrender.com", "127.0.0.1", "localhost"]
 
 
 ROOT_URLCONF = 'crud.urls'
