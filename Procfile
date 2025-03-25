@@ -1,1 +1,1 @@
-web: backend-test.wsgi --log-file -
+web: gunicorn crud.wsgi:application --log-file -
