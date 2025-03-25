@@ -47,7 +47,11 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000','https://karanja-app.netlify.app'
+
 ]
+
+ALLOWED_HOSTS = ["backend-test.onrender.com", "localhost"]
+
 
 ROOT_URLCONF = 'crud.urls'
 
