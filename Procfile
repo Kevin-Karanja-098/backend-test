@@ -1,1 +1,1 @@
-web: backend.wsgi --log-file -
+web: backend-test.wsgi --log-file -
